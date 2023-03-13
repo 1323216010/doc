@@ -47,6 +47,10 @@ module.exports = {
               title: '程序',
               path: '/learn/what_is_meilisearch/features',
             },
+            {
+              title: '语法',
+              path: '/learn/what_is_meilisearch/overview',
+            },
           ],
         },
       ],
