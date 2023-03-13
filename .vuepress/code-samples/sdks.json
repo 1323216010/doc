@@ -6,10 +6,10 @@
     "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/js.yaml"
   },
   {
-    "language": "python",
+    "language": "go",
     "cacheableTab": true,
-    "label": "Python",
-    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/python.yaml"
+    "label": "Go",
+    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/go.yaml"
   },
   {
     "language": "java",
@@ -18,10 +18,10 @@
     "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/java.yaml"
   },
   {
-    "language": "go",
+    "language": "python",
     "cacheableTab": true,
-    "label": "Go",
-    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/go.yaml"
+    "label": "Python",
+    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn/meilisearch/python.yaml"
   },
   {
     "language": "javascript",
