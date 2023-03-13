@@ -38,7 +38,7 @@ module.exports = {
     sidebar: {
       '/learn/': [
         {
-          title: '🔎 检索',
+          title: '📒 目录',
           path: '/learn/what_is_meilisearch/features.html',
           collapsable: false,
           sidebarDepth: 0,
