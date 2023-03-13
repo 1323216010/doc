@@ -49,7 +49,7 @@ module.exports = {
             },
             {
               title: '语法',
-              path: '/learn/what_is_meilisearch/overview',
+              path: '/learn/what_is_meilisearch/grammar',
             },
           ],
         },
