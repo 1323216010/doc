@@ -7,7 +7,7 @@ module.exports = {
     docsRepo: '我的幻想乡',
     docsBranch: 'main',
     editLinks: true,
-    logo: '/logo.svg',
+    logo: '/logo.png',
     sidebarDepth: 1,
     smoothScroll: true,
 
