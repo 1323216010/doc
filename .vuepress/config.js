@@ -45,7 +45,7 @@ module.exports = {
           children: [
             {
               title: '程序',
-              path: '/learn/what_is_meilisearch/features',
+              path: '/learn/what_is_meilisearch/code',
             },
             {
               title: '语法',
