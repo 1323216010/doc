@@ -229,7 +229,7 @@ module.exports = {
       {},
       `
       window.$crisp=[];
-      window.CRISP_WEBSITE_ID="bc17e0a2-ecf4-496c-8b69-3bd752a8ebe2";
+      window.CRISP_WEBSITE_ID="789d9512-90f3-4f40-b259-8e35fc5937fd";
       (function() {
           var d=document;
           var s=d.createElement("script");
