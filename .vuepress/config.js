@@ -12,7 +12,7 @@ module.exports = {
     smoothScroll: true,
 
     nav: [
-      { text: '学习', link: '/learn/what_is_meilisearch/features' },
+      { text: '学习', link: '/learn/what_is_meilisearch/code' },
       { text: '导航', link: '/reference/api/overview' },
       { text: '常用', link: '/faq' },
       {
@@ -39,7 +39,7 @@ module.exports = {
       '/learn/': [
         {
           title: '📒 目录',
-          path: '/learn/what_is_meilisearch/features.html',
+          path: '/learn/what_is_meilisearch/code.html',
           collapsable: false,
           sidebarDepth: 0,
           children: [
