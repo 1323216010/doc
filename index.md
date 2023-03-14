@@ -16,8 +16,6 @@
 
 ## 博物馆
 
-### cube
-
 <iframe src="https://cube.yan-ui.asia" width="960" height="540" frameborder="0"></iframe>
 
 一个可上网的立方体
