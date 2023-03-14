@@ -33,7 +33,7 @@ Gorilla WebSocket 是一个WebSocket的 Go实现。
 
 [项目地址](https://github.com/gorilla/websocket)
 
-## 命令、语句和配置
+## 命令
 
 ### js
 
