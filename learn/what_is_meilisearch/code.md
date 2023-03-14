@@ -10,4 +10,4 @@ sidebarDepth: 2
 
 ### 统计某字符在字符串中出现次数
 
-<CodeSamples id="code_1" />
+<CodeSamples id="code_md" />
