@@ -463,7 +463,7 @@ add_movies_json_1: |-
     -X POST 'http://localhost:7700/indexes/movies/documents'\
     -H 'Content-Type: application/json' \
     --data-binary @movies.json
-char_sum_11: |-
+char_sum_1: |-
   ```bash
   curl \
     -X POST 'http://localhost:7700/indexes/movies/documents?primaryKey=id' \
