@@ -20,4 +20,4 @@
 
 <iframe src="https://cube.yan-ui.asia" width="576" height="324" frameborder="0"></iframe>
 
-一个可交互的3D立方体
+一个可上网的3D立方体
