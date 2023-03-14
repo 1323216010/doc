@@ -44,11 +44,11 @@ module.exports = {
           sidebarDepth: 0,
           children: [
             {
-              title: '程序',
+              title: '程序代码',
               path: '/learn/what_is_meilisearch/code',
             },
             {
-              title: '语法',
+              title: '编程语言',
               path: '/learn/what_is_meilisearch/grammar',
             },
           ],
