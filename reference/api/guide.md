@@ -6,6 +6,8 @@
 
 [Vercel](https://vercel.com/dashboard)
 
+[Vercel2](https://vercel.com/1323216010-s-team)
+
 [微信公众平台](https://mp.weixin.qq.com/)
 
 [Crisp](https://app.crisp.chat/websit/)

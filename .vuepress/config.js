@@ -13,7 +13,7 @@ module.exports = {
 
     nav: [
       { text: '学习', link: '/learn/what_is_meilisearch/code' },
-      { text: '导航', link: '/reference/api/overview' },
+      { text: '导航', link: '/reference/api/guide' },
       { text: '常用', link: '/faq' },
       {
         text: '项目预览',
@@ -57,12 +57,12 @@ module.exports = {
       '/reference/': [
         {
           title: '📒 目录',
-          path: '/reference/api/overview.html',
+          path: '/reference/api/guide.html',
           collapsable: false,
           children: [
             {
               title: '网址导航',
-              path: '/reference/api/overview',
+              path: '/reference/api/guide',
             },
           ],
         },
