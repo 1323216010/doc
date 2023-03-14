@@ -43,6 +43,20 @@ Gorilla WebSocket 是WebSocket协议的 Go实现。
 document.documentElement.style.filter='invert(85%) hue-rotate(180deg)'
 ```
 
+### nginx
+
+绕过 X-Frame-Options 限制
+
+```nginx
+server {
+        listen       8080;
+        location / {
+            proxy_hide_header X-Frame-Options;
+            proxy_pass http://{target};
+        }
+    }
+```
+
 ### docker
 
 镜像重命名
