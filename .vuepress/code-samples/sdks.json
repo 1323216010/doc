@@ -3,25 +3,25 @@
     "language": "javascript",
     "cacheableTab": true,
     "label": "JS",
-    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn@master/meilisearch/js.yaml"
+    "url": "https://doc-code.yan-ui.asia/js.yaml"
   },
   {
     "language": "go",
     "cacheableTab": true,
     "label": "Go",
-    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn@master/meilisearch/go.yaml"
+    "url": "https://doc-code.yan-ui.asia/go.yaml"
   },
   {
     "language": "java",
     "cacheableTab": true,
     "label": "Java",
-    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn@master/meilisearch/java.yaml"
+    "url": "https://doc-code.yan-ui.asia/java.yaml"
   },
   {
     "language": "python",
     "cacheableTab": true,
     "label": "Python",
-    "url": "https://cdn.jsdelivr.net/gh/1323216010/cdn@master/meilisearch/python.yaml"
+    "url": "https://doc-code.yan-ui.asia/python.yaml"
   },
   {
     "language": "javascript",
