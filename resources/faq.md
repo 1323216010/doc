@@ -79,7 +79,7 @@ UPDATE t_demo set id = REPLACE(UUID(),"-","")
 
 ### nginx
 
-绕过 X-Frame-Options 限制
+绕过X-Frame-Options限制
 
 ```nginx
 server {
