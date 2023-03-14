@@ -14,6 +14,10 @@
 <a class="github-button" href="https://github.com/1323216010/api" data-icon="octicon-star" data-size="large" data-show-count="true" aria-label="Star 1323216010/api on GitHub">Star</a><!-- prettier-ignore
 --><script async defer src="https://buttons.github.io/buttons.js"></script>
 
-## 立方体
+## 博物馆
 
-<iframe src="https://cube.yan-ui.asia" width="576" height="324"></iframe>
+### cube
+
+<iframe src="https://cube.yan-ui.asia" width="576" height="324" frameborder="0"></iframe>
+
+一个可交互的3D立方体
