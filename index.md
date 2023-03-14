@@ -1,6 +1,6 @@
 # 幻想乡
 
-<iframe src="https://cube.yan-ui.asia/" width="960" height="540"></iframe>
+<iframe src="https://cube.yan-ui.asia/" width="960" height="540" allowTransparency="true"></iframe>
 
 ## 最近项目
 
