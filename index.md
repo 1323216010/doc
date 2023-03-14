@@ -2,7 +2,7 @@
 
 ## 立方体
 
-<iframe src="https://cube.yan-ui.asia/" width="576" height="324"></iframe>
+<iframe src="https://cube.yan-ui.asia/b" width="576" height="324"></iframe>
 
 ## 最近项目
 
