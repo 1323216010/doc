@@ -5,34 +5,6 @@ sidebar: auto
 
 # 常用
 
-## 项目相关
-
-### meilisearch
-
-meilisearch是一个用rust写的搜索引擎
-
-docker启动命令
-
-```powershell
-docker run -it --rm -p 7700:7700 -e MEILI_MASTER_KEY='MASTER_KEY' getmeili/meilisearch:v1.0
-```
-
-MEILI_MASTER_KEY指定token名称
-
-[项目地址](https://github.com/meilisearch/meilisearch)
-
-### ws
-
-ws 是一个WebSocket实现。
-
-[项目地址](https://github.com/websockets/ws)
-
-### websocket
-
-Gorilla WebSocket 是一个WebSocket的 Go实现。
-
-[项目地址](https://github.com/gorilla/websocket)
-
 ## 命令
 
 ### js
@@ -90,3 +62,33 @@ server {
         }
     }
 ```
+
+## 项目相关
+
+### meilisearch
+
+meilisearch是一个用rust写的搜索引擎
+
+docker启动命令
+
+```powershell
+docker run -it --rm -p 7700:7700 -e MEILI_MASTER_KEY='MASTER_KEY' getmeili/meilisearch:v1.0
+```
+
+MEILI_MASTER_KEY指定token名称
+
+[项目地址](https://github.com/meilisearch/meilisearch)
+
+### websocket
+
+#### ws 
+
+ws是一个WebSocket实现。
+
+[项目地址](https://github.com/websockets/ws)
+
+#### Gorilla WebSocket
+
+Gorilla WebSocket 是一个WebSocket的 Go实现。
+
+[项目地址](https://github.com/gorilla/websocket)
