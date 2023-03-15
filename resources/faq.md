@@ -81,7 +81,7 @@ MEILI_MASTER_KEY指定token名称
 
 ### websocket
 
-#### ws 
+#### ws
 
 ws是一个WebSocket实现。
 
