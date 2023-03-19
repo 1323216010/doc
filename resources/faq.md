@@ -63,7 +63,7 @@ server {
     }
 ```
 
-## 项目相关
+## 开源
 
 ### meilisearch
 
