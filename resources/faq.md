@@ -92,3 +92,23 @@ ws是一个WebSocket实现。
 Gorilla WebSocket 是一个WebSocket的 Go实现。
 
 [项目地址](https://github.com/gorilla/websocket)
+
+### 消息队列
+
+#### RabbitMQ
+
+RabbitMQ是一个支持消息持久化的消息队列服务软件
+
+在线拉取docker镜像
+
+```powershell
+docker pull rabbitmq:3-management
+```
+
+运行MQ容器
+
+```powershell
+docker run -e RABBITMQ_DEFAULT_USER=guest -e RABBITMQ_DEFAULT_PASS=guest --name mq --hostname mq1 -p 15672:15672 -p 5672:5672 -d rabbitmq:3-management
+```
+
+[文档地址](https://www.rabbitmq.com/getstarted.html)
