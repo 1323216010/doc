@@ -4,7 +4,6 @@
 
 ### 切片
 
-```go
 package main
 
 import "fmt"
@@ -17,7 +16,6 @@ func main() {
    fmt.Println("length:", len(s))
    fmt.Println("capacity:", cap(s))
 }
-```
 
 ## Features
 
