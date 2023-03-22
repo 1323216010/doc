@@ -22,6 +22,6 @@
 
 一个可上网的立方体
 
-### ar口罩试戴
+### Ar口罩试戴
 
 [在线体验](https://ar-mask.yan-ui.asia)
