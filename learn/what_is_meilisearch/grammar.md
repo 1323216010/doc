@@ -4,6 +4,8 @@
 
 ### 切片
 
+<CodeSamples id="slice_1" />
+
 ## Features
 
 ## Philosophy
