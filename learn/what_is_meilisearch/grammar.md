@@ -1,6 +1,6 @@
 ---
 
-sidebarDepth: 2
+sidebarDepth: 1
 
 ---
 
