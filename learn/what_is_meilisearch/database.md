@@ -24,7 +24,6 @@ sidebarDepth: 1
 
 ## python
 
-
 ## 相关概念
 
 我们平时说的MySQL数据库其实是MySQL数据库管理系统。
