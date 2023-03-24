@@ -36,7 +36,7 @@ sidebarDepth: 1
 
 简单理解就是用来操作数据库，表等
 
-#### DML(Data Manipulation Language) 
+#### DML(Data Manipulation Language)
 
 数据操作语言，用来对数据库中表的数据进行增删改
 
@@ -48,7 +48,7 @@ sidebarDepth: 1
 
 DQL简单理解就是对数据进行查询操作。从数据库表中查询到我们想要的数据。
 
-#### DCL(Data Control Language) 
+#### DCL(Data Control Language)
 
 数据控制语言，用来定义数据库的访问权限和安全级别，及创建用户
 
