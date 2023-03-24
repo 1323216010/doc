@@ -40,7 +40,7 @@ module.exports = {
         {
           title: '📒 目录',
           path: '/learn/what_is_meilisearch/code.html',
-          collapsable: true,
+          collapsable: false,
           sidebarDepth: 0,
           children: [
             {

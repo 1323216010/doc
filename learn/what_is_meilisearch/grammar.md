@@ -1,6 +1,8 @@
 ---
 
-sidebarDepth: 1
+sidebarDepth: 2
+
+collapsable: true
 
 ---
 
