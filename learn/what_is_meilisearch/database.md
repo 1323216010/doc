@@ -132,12 +132,12 @@ SELECT 字段列表 FROM 表1 RIGHT [OUTER] JOIN 表2 ON 条件;
 
 #### 事务隔离级别
 
-|        事务隔离级别         | 脏读 | 不可重复读 | 幻读 |
-| :-------------------------: | :--: | :--------: | :--: |
-| 读未提交(Read uncommitted ) |  是  |     是     |  是  |
-|  读已提交(Read committed)   |  否  |     是     |  是  |
-|  可重复读(Repeatable Read)  |  否  |     否     |  是  |
-|     串行(Serializable)      |  否  |     否     |  否  |
+| 事务隔离级别                | 脏读 | 不可重复读 | 幻读 |
+| --------------------------- | :--- | :--------- | :--- |
+| 读未提交(Read uncommitted ) | 是   | 是         | 是   |
+| 读已提交(Read committed)    | 否   | 是         | 是   |
+| 可重复读(Repeatable Read)   | 否   | 否         | 是   |
+| 串行(Serializable)          | 否   | 否         | 否   |
 
 Mysql默认的是可重复读。
 
