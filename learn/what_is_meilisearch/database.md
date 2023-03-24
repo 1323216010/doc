@@ -1,6 +1,6 @@
 ---
 
-sidebarDepth: 2
+sidebarDepth: 3
 
 ---
 
@@ -332,6 +332,10 @@ EXPLAIN 或者 DESC命令获取可 MySQL 如何执行 SELECT 语句的信息，�
 2. 如果不可避免的出现filesort，大数据量排序时，可以适当增大排序缓冲区大小sort_buffer_size(默认256k)。
 3. 尽量使用覆盖索引。
 4. 多字段排序时，遵循最左前缀法则。
+
+#### group by优化
+
+使用索引
 
 #### limit优化
 
