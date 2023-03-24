@@ -50,6 +50,8 @@ module.exports = {
             {
               title: '编程语言',
               path: '/learn/what_is_meilisearch/grammar.html',
+              collapsable: false,
+              sidebarDepth: 0,
               children: [
                 {
                   title: 'go',
