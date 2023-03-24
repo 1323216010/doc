@@ -1,10 +1,10 @@
 const ogprefix = 'og: http://ogp.me/ns#'
 module.exports = {
-  title: '我的幻想乡 v1.0',
+  title: '幻想乡 v1.0',
   description: 'Open source Instant Search Engine',
   theme: 'default-prefers-color-scheme',
   themeConfig: {
-    docsRepo: '我的幻想乡',
+    docsRepo: '幻想乡',
     docsBranch: 'main',
     editLinks: true,
     logo: '/logo.png',
