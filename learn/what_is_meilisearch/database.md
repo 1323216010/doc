@@ -448,19 +448,19 @@ InnoDB的行锁是针对索引加的锁，不是针对记录加的锁，并且�
 常规更新：
 
 ```sql
-UPDATE 表名 SET 列名1 = 值1 WHERE 列名2 = 值2
+UPDATE 表 SET 列1 = 值1 WHERE 列2 = 值2
 ```
 
 生成不带横杠的uuid：
 
 ```sql
-UPDATE emp set uuid = REPLACE(UUID(),"-","")
+UPDATE 表 set 列 = REPLACE(UUID(),"-","")
 ```
 
 ### DQL(Data Query Language)
 
 ```sql
-SELECT COUNT(*), 列名 FROM 表名 GROUP BY 列名
+SELECT COUNT(*), 列 FROM 表 GROUP BY 列
 ```
 
 统计表中该字段的值相等的所有**行数**并分组。
