@@ -45,7 +45,7 @@ module.exports = {
           children: [
             {
               title: '编程语言',
-              path: '/learn/what_is_meilisearch/go.html',
+              path: '/learn/what_is_meilisearch/grammar.html',
               children: [
                 {
                   title: 'go',
