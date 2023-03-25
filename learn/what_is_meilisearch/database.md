@@ -116,6 +116,7 @@ SELECT 字段列表 FROM 表1 RIGHT [OUTER] JOIN 表2 ON 条件;
   rollback;
   ```
 
+
 #### 事务的四大特征
 
 * 原子性（Atomicity）: 事务是不可分割的最小操作单位，要么同时成功，要么同时失败
