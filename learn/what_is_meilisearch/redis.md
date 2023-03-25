@@ -10,7 +10,7 @@ sidebarDepth: 2
 
 ### 键值型
 
-键值型是指数据是以key、value对的形式存储，value的形式多种多样，可以是字符串、数值、甚至json。
+键值型是指数据是以key、value对的形式存储，value的形式多种多样，可以是字符串、数值、json。
 
 ### Nosql
 
