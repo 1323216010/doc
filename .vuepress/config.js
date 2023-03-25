@@ -61,6 +61,10 @@ module.exports = {
               title: '数据库',
               path: '/learn/what_is_meilisearch/database',
             },
+            {
+              title: 'Redis',
+              path: '/learn/what_is_meilisearch/redis',
+            },
           ],
         },
       ],
