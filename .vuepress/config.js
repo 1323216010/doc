@@ -44,10 +44,6 @@ module.exports = {
           sidebarDepth: 0,
           children: [
             {
-              title: '程序代码',
-              path: '/learn/what_is_meilisearch/code',
-            },
-            {
               title: '编程语言',
               path: '/learn/what_is_meilisearch/grammar.html',
               children: [
@@ -64,6 +60,20 @@ module.exports = {
             {
               title: 'Redis',
               path: '/learn/what_is_meilisearch/redis',
+            },
+            {
+              title: '华为机试',
+              path: '/learn/what_is_meilisearch/grammar.html',
+              children: [
+                {
+                  title: 'go',
+                  path: '/learn/what_is_meilisearch/go-hw',
+                },
+              ],
+            },
+            {
+              title: '程序代码',
+              path: '/learn/what_is_meilisearch/code',
             },
           ],
         },
