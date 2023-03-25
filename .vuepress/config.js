@@ -71,6 +71,10 @@ module.exports = {
                 },
               ],
             },
+            {
+              title: '程序代码',
+              path: '/learn/what_is_meilisearch/code',
+            },
           ],
         },
       ],
