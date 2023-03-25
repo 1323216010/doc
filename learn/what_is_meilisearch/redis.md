@@ -22,7 +22,7 @@ Redis全称是**Re**mote  **D**ictionary **S**erver，是一个基于内存的�
 
 Redis是典型的key-value数据库，key一般是字符串，而value包含很多不同的数据类型：
 
-![](https://picture.yan-test.asia/8tli2o9.png)
+![数据类型](https://picture.yan-test.asia/8tli2o9.png)
 
 #### String类型
 
