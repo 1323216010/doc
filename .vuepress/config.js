@@ -69,6 +69,10 @@ module.exports = {
                   title: 'go',
                   path: '/learn/what_is_meilisearch/go-hw',
                 },
+                {
+                  title: 'js',
+                  path: '/learn/what_is_meilisearch/js-hw',
+                },
               ],
             },
             {
