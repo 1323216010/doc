@@ -24,17 +24,17 @@ import (
 )
 
 func main() {
-	reader := bufio.NewReader(os.Stdin)
-    // 设置结束字符
-   input, _ := reader.ReadString('\n')
-   sum := -1
-   for i := 0; i < len(input); i++ {
-      if input[i] == ' ' {
-         sum = 0
-      }else {
-         sum++
-      }
-   }
-   fmt.Println(sum)
+  reader := bufio.NewReader(os.Stdin)
+  // 设置结束字符
+  input, _ := reader.ReadString('\n')
+  sum := -1
+  for i := 0; i < len(input); i++ {
+    if input[i] == ' ' {
+        sum = 0
+    }else {
+        sum++
+    }
+  }
+  fmt.Println(sum)
 }
 ```
