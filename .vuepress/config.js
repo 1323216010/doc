@@ -45,7 +45,7 @@ module.exports = {
           children: [
             {
               title: '编程语言',
-              path: '/learn/what_is_meilisearch/grammar.html',
+              path: '/learn/what_is_meilisearch/go.html',
               children: [
                 {
                   title: 'go',
@@ -63,7 +63,7 @@ module.exports = {
             },
             {
               title: '华为机试',
-              path: '/learn/what_is_meilisearch/grammar.html',
+              path: '/learn/what_is_meilisearch/go-hw.html',
               children: [
                 {
                   title: 'go',
