@@ -440,3 +440,21 @@ EXPLAIN 或者 DESC命令获取可 MySQL 如何执行 SELECT 语句的信息，�
 #### update优化
 
 InnoDB的行锁是针对索引加的锁，不是针对记录加的锁，并且该索引不能失效，否则会从行锁升级为表锁。
+
+## 基础sql
+
+### DML(Data Manipulation Language)
+
+```sql
+UPDATE 表名 SET 列名1 = 值1 WHERE 列名2 = 值2
+```
+
+### DQL(Data Query Language)
+
+```sql
+SELECT COUNT(*), 列名 FROM 表名 GROUP BY 列名
+```
+
+统计表中该字段的值相等的所有**行数**并分组。
+
+如：统计表中性别为男的行数与性别为女的**行数**
