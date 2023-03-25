@@ -39,14 +39,6 @@ npm cache clear --force
 cat  /proc/cpuinfo
 ```
 
-### sql
-
-给id生成uuid
-
-```sql
-UPDATE t_demo set id = REPLACE(UUID(),"-","") 
-```
-
 ## 配置
 
 ### nginx

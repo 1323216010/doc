@@ -445,8 +445,16 @@ InnoDB的行锁是针对索引加的锁，不是针对记录加的锁，并且�
 
 ### DML(Data Manipulation Language)
 
+常规更新：
+
 ```sql
 UPDATE 表名 SET 列名1 = 值1 WHERE 列名2 = 值2
+```
+
+生成不带横杠的uuid：
+
+```sql
+UPDATE emp set uuid = REPLACE(UUID(),"-","")
 ```
 
 ### DQL(Data Query Language)
