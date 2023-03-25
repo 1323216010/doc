@@ -63,7 +63,7 @@ module.exports = {
             },
             {
               title: '华为机试',
-              path: '/learn/what_is_meilisearch/go-hw.html',
+              path: '/learn/what_is_meilisearch/grammar.html',
               children: [
                 {
                   title: 'go',
