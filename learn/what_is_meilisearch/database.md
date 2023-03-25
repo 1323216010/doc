@@ -435,7 +435,7 @@ EXPLAIN 或者 DESC命令获取可 MySQL 如何执行 SELECT 语句的信息，�
 
 #### count优化
 
-count(*) ≈ count(1) > count(主键) > count(字段)
+性能：count(*) ≈ count(1) > count(主键) > count(字段)
 
 #### update优化
 
