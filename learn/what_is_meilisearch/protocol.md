@@ -38,7 +38,7 @@ UDP使用场景：
 
 #### HTTP
 
-HTTP(HyperText Transfer Protocol)，基于TCP/IP传递数据（HTML 文件, 图片文件, 查询结果等）。通常，由HTTP客户端发起一个请求，建立一个到服务器指定端口（默认是80端口）的TCP连接。HTTP服务器则在那个端口监听客户端发送过来的请求。
+HTTP(HyperText Transfer Protocol)，可传递各种数据（HTML 文件, 图片文件, 查询结果等）。通常，由HTTP客户端发起一个请求，建立一个到服务器指定端口（默认是80端口）的TCP连接。HTTP服务器则在那个端口监听客户端发送过来的请求。
 
 特点：
 
