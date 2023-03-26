@@ -66,6 +66,10 @@ module.exports = {
               path: '/learn/what_is_meilisearch/rabbitmq',
             },
             {
+              title: '计算机网络',
+              path: '/learn/what_is_meilisearch/protocol',
+            },
+            {
               title: '华为机试',
               path: '/learn/what_is_meilisearch/go-hw.html',
               children: [
