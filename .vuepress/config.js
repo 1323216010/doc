@@ -44,16 +44,6 @@ module.exports = {
           sidebarDepth: 0,
           children: [
             {
-              title: '编程语言',
-              path: '/learn/what_is_meilisearch/go.html',
-              children: [
-                {
-                  title: 'go',
-                  path: '/learn/what_is_meilisearch/go',
-                },
-              ],
-            },
-            {
               title: '数据库',
               path: '/learn/what_is_meilisearch/database',
             },
@@ -68,6 +58,16 @@ module.exports = {
             {
               title: '计算机网络',
               path: '/learn/what_is_meilisearch/protocol',
+            },
+            {
+              title: '编程语言',
+              path: '/learn/what_is_meilisearch/go.html',
+              children: [
+                {
+                  title: 'go',
+                  path: '/learn/what_is_meilisearch/go',
+                },
+              ],
             },
             {
               title: '机试题',
