@@ -70,7 +70,7 @@ module.exports = {
               path: '/learn/what_is_meilisearch/protocol',
             },
             {
-              title: '华为机试',
+              title: '机试题',
               path: '/learn/what_is_meilisearch/go-hw.html',
               children: [
                 {
