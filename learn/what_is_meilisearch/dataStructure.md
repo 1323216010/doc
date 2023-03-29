@@ -189,9 +189,9 @@ class ListNode {
 }
 ```
 
-#### [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/)
+### [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/)
 
-##### 迭代
+#### 迭代
 
 ```js
 function mergeTwoLists(l1, l2) {
@@ -219,7 +219,7 @@ function mergeTwoLists(l1, l2) {
 };
 ```
 
-##### 测试
+#### 测试
 
 ```js
 var l1 = new ListNode(1)
@@ -233,4 +233,42 @@ node = l2.next
 node.next = new ListNode(4)
 
 console.log(mergeTwoLists(l1, l2))
+```
+
+## 栈
+
+### [有效的括号](https://leetcode.cn/problems/valid-parentheses/)
+
+```js
+function isValid(s) {
+    if (s.length % 2 === 1) {
+        return false;
+    }
+    const pairs = new Map([
+        [')', '('],
+        [']', '['],
+        ['}', '{']
+    ]);
+    const stk = [];
+    for (let ch of s){
+        if (pairs.has(ch)) {
+            if (stk.length == 0 || stk[stk.length - 1] !== pairs.get(ch)) {
+                return false;
+            }
+            stk.pop();
+        } 
+        else {
+            stk.push(ch);
+        }
+    };
+    return !stk.length;
+};
+```
+
+#### 测试
+
+```js
+console.log(isValid("()"))
+console.log(isValid("()[]{}"))
+console.log(isValid("(]"))
 ```
