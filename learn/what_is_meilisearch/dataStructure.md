@@ -1,6 +1,6 @@
 ---
 
-sidebarDepth: 3
+sidebarDepth: 2
 
 ---
 
@@ -104,7 +104,7 @@ function inorderTraversal(root) {
 #### 迭代
 
 ```js
-function inorderTraversal(root) {
+function postorderTraversal(root) {
     const res = [];
     const stk = [];
     let prev = null;
@@ -135,29 +135,29 @@ shift：让数组像队列一样先进先出
 
 ```js
 function levelOrder(root) {
-    const res = [];
+    const res = []
     if (root === undefined || root === null) {
         return res;
     }
 
     const arr = [];
     arr.push(root);
-    while (arr.length != 0) {
-        res.push([]);
-        for (let i = 1; i <= arr.length; ++i) {
+    while(arr.length != 0) {
+        let l = arr.length;
+        res.push([])
+        for(let i = 0; i < arr.length; i++) {
             const node = arr.shift();
-            res[res.length - 1].push(node.val);
-            if (node.left) {
+            res[res.length -1].push(node.val);
+            if(node.left != undefined && node.left !=null) {
                 arr.push(node.left);
             }
-            if (node.right) {
+            if(node.right != undefined && node.right !=null) {
                 arr.push(node.right);
             }
         }
     }
-
     return res;
-};
+}
 ```
 
 ### 测试
