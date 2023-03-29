@@ -74,7 +74,7 @@ module.exports = {
               ],
             },
             {
-              title: '机试题',
+              title: '程序代码',
               path: '/learn/what_is_meilisearch/go-hw.html',
               children: [
                 {
@@ -86,10 +86,6 @@ module.exports = {
                   path: '/learn/what_is_meilisearch/go-hw',
                 },
               ],
-            },
-            {
-              title: '程序代码',
-              path: '/learn/what_is_meilisearch/code',
             },
           ],
         },
