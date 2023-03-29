@@ -13,22 +13,16 @@ package main
 
 import (
   "bufio"
+  "strings"
   "fmt"
   "os"
 )
 
 func main() {
-  reader := bufio.NewReader(os.Stdin)
-  // 设置结束字符
-  input, _ := reader.ReadString('\n')
-  sum := -1
-  for i := 0; i < len(input); i++ {
-      if input[i] == ' ' {
-      sum = 0
-      } else {
-      sum++
-      }
-  }
-  fmt.Println(sum)
+    input := bufio.NewScanner(os.Stdin)
+    for input.Scan() {
+        arr := strings.Split(input.Text(), " ")
+        fmt.Println(len(arr[len(arr)-1]))
+    }
 }
 ```
