@@ -1,6 +1,6 @@
 ---
 
-sidebarDepth: 4
+sidebarDepth: 3
 
 ---
 
@@ -22,9 +22,9 @@ sidebarDepth: 4
 
 后序遍历结果为：DEBFCA
 
-### js
+### 数据结构
 
-#### 数据结构
+#### js
 
 ```js
 class TreeNode {
@@ -36,9 +36,30 @@ class TreeNode {
 }
 ```
 
-#### 中序遍历
+#### java
 
-##### 递归
+```java
+public class TreeNode {
+
+    public int val;
+
+    public TreeNode left;
+
+    public TreeNode right;
+
+    public TreeNode(int x) { val = x; }
+
+    public String toString(){
+
+        return Integer.toString(val);
+
+    }
+}
+```
+
+### 中序遍历
+
+#### 递归
 
 ```js
 function inorderTraversal(root) {
@@ -56,7 +77,7 @@ function inorderTraversal(root) {
 };
 ```
 
-##### 迭代
+#### 迭代
 
 ```js
 function inorderTraversal(root) {
@@ -75,9 +96,9 @@ function inorderTraversal(root) {
 };
 ```
 
-#### 后序遍历
+### 后序遍历
 
-##### 迭代
+#### 迭代
 
 ```js
 function inorderTraversal(root) {
@@ -105,7 +126,7 @@ function inorderTraversal(root) {
 };
 ```
 
-#### 测试
+### 测试
 
 ```js
 var a = new TreeNode('A')
@@ -122,27 +143,4 @@ c.left = f
 
 console.log(a)
 console.log(inorderTraversal(a))
-```
-
-### java
-
-#### 数据结构
-
-```java
-public class TreeNode {
-
-    public int val;
-
-    public TreeNode left;
-
-    public TreeNode right;
-
-    public TreeNode(int x) { val = x; }
-
-    public String toString(){
-
-        return Integer.toString(val);
-
-    }
-}
 ```
