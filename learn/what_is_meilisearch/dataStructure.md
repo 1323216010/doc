@@ -13,6 +13,7 @@ sidebarDepth: 3
 2. 中序遍历：先遍历左子树，然后访问根结点，最后遍历右子树。
 
 3. 后序遍历：先遍历左子树，然后遍历右子树，最后访问根结点。
+4. 层序遍历：一层一层地遍历
 
 <img src="https://picture.yan-test.asia/先序遍历.jpg" alt="先序遍历" style="zoom: 33%;" />
 
@@ -21,6 +22,8 @@ sidebarDepth: 3
 中序遍历结果为：DBEAFC
 
 后序遍历结果为：DEBFCA
+
+层序遍历结果为：ABCDEF
 
 ### 数据结构
 
@@ -122,6 +125,37 @@ function inorderTraversal(root) {
             root = null
         }
     }
+    return res;
+};
+```
+
+### 层序遍历
+
+shift：让数组像队列一样先进先出
+
+```js
+function levelOrder(root) {
+    const res = [];
+    if (root === undefined || root === null) {
+        return res;
+    }
+
+    const arr = [];
+    arr.push(root);
+    while (arr.length != 0) {
+        res.push([]);
+        for (let i = 1; i <= arr.length; ++i) {
+            const node = arr.shift();
+            res[res.length - 1].push(node.val);
+            if (node.left) {
+                arr.push(node.left);
+            }
+            if (node.right) {
+                arr.push(node.right);
+            }
+        }
+    }
+
     return res;
 };
 ```
