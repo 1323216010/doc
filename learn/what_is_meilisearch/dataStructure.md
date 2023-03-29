@@ -31,10 +31,10 @@ sidebarDepth: 3
 
 ```js
 class TreeNode {
-    constructor (val, left, right) {
+    constructor (val) {
       this.val = val
-      this.left = left
-      this.right = right
+      this.left = null
+      this.right = null
     }
 }
 ```
@@ -164,17 +164,73 @@ function levelOrder(root) {
 
 ```js
 var a = new TreeNode('A')
-var b = new TreeNode('B')
-var c = new TreeNode('C')
-var d = new TreeNode('D')
-var e = new TreeNode('E')
-var f = new TreeNode('F')
-a.left = b
-a.right = c
-b.left = d
-b.right = e
-c.left = f
+a.left = new TreeNode('B')
+a.right = new TreeNode('C')
+a.left.left = new TreeNode('D')
+a.left.right = new TreeNode('E')
+a.right.left = new TreeNode('F')
 
 console.log(a)
 console.log(inorderTraversal(a))
+```
+
+## 链表
+
+### 数据结构
+
+#### js
+
+```js
+class ListNode {
+    constructor (val) {
+      this.val = val
+      this.next = null
+    }
+}
+```
+
+#### [合并两个有序链表](https://leetcode.cn/problems/merge-two-sorted-lists/)
+
+##### 迭代
+
+```js
+function mergeTwoLists(l1, l2) {
+    const prehead = new ListNode(-1);
+
+    let curr = prehead;
+    while (l1 != null && l2 != null) {
+        if (l1.val <= l2.val) {
+            curr.next = l1;
+            l1 = l1.next;
+        } else {
+            curr.next = l2;
+            l2 = l2.next;
+        }
+        curr = curr.next;
+    }
+
+    if(l1 === null) {
+        curr.next = l2
+    }else {
+        curr.next = l1
+    }
+
+    return prehead.next;
+};
+```
+
+##### 测试
+
+```js
+var l1 = new ListNode(1)
+l1.next = new ListNode(2)
+node = l1.next
+node.next = new ListNode(4)
+
+var l2 = new ListNode(1)
+l2.next = new ListNode(3)
+node = l2.next
+node.next = new ListNode(4)
+
+console.log(mergeTwoLists(l1, l2))
 ```
