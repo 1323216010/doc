@@ -60,6 +60,10 @@ module.exports = {
               path: '/learn/what_is_meilisearch/protocol',
             },
             {
+              title: '数据结构',
+              path: '/learn/what_is_meilisearch/dataStructure',
+            },
+            {
               title: '编程语言',
               path: '/learn/what_is_meilisearch/go.html',
               children: [
