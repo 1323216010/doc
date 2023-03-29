@@ -16,15 +16,8 @@ const readline = async () => (await iter.next()).value;
 void async function () {
     // Write your code here
     while(line = await readline()){
-        var sum = 0;
-        for(let i = 0; i < line.length; i++) {
-            if(line[i] == ' ') {
-                sum = 0;
-            }else {
-                sum++;
-            }
-        }
-        console.log(sum);
+        let arr = line.split(' ')
+        console.log(arr[arr.length - 1].length)
     }
 }()
 ```
