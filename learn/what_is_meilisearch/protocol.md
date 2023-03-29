@@ -101,7 +101,7 @@ https = http + ssl
 
 https并不是新的应用层协议，只是http不再直接跟tcp进行通信了，先跟ssl通信，再由ssl和tcp通信。
 
-http在url中以http://开始，默认使用的是80端口；https在url中以https://开始，默认使用的是443端口。
+http在url中默认使用的是80端口；https在url中默认使用的是443端口。
 
 ![https](https://picture.yan-test.asia/20200714142928326.png)
 
@@ -114,8 +114,6 @@ GET和POST能做的事情是一样的。给GET加上request body，给POST带上
 GET和POST本质上都是TCP链接，没有差别，只是有的浏览器限制GET不能有请求体，另外：
 
 对于GET方式的请求，浏览器会把header和data一并发送出去，服务器响应200（返回数据）；而对于POST，浏览器先发送header，服务器响应100 continue，浏览器再发送data，服务器响应200 ok（返回数据）。也就是说，GET产生一个TCP数据包，POST产生两个TCP数据包。
-
-
 
 #### FTP
 
