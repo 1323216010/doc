@@ -78,12 +78,12 @@ module.exports = {
               path: '/learn/what_is_meilisearch/go-hw.html',
               children: [
                 {
-                  title: 'go',
-                  path: '/learn/what_is_meilisearch/go-hw',
-                },
-                {
                   title: 'js',
                   path: '/learn/what_is_meilisearch/js-hw',
+                },
+                {
+                  title: 'go',
+                  path: '/learn/what_is_meilisearch/go-hw',
                 },
               ],
             },
