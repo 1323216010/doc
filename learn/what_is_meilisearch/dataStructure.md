@@ -145,7 +145,7 @@ function levelOrder(root) {
     while(arr.length != 0) {
         let l = arr.length;
         res.push([])
-        for(let i = 0; i < arr.length; i++) {
+        for(let i = 0; i < l; i++) {
             const node = arr.shift();
             res[res.length -1].push(node.val);
             if(node.left != undefined && node.left !=null) {
