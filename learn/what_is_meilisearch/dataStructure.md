@@ -39,6 +39,14 @@ class TreeNode {
 }
 ```
 
+```js
+function TreeNode(val, left, right) {
+    this.val = (val===undefined ? 0 : val)
+    this.left = (left===undefined ? null : left)
+    this.right = (right===undefined ? null : right)
+ }
+```
+
 #### java
 
 ```java
@@ -135,40 +143,36 @@ shift：让数组像队列一样先进先出
 
 ```js
 function levelOrder(root) {
-    const res = []
+    const res = [];
     if (root === undefined || root === null) {
         return res;
     }
 
     const arr = [];
     arr.push(root);
-    while(arr.length != 0) {
+    while (arr.length != 0) {
         let l = arr.length;
-        res.push([])
-        for(let i = 0; i < l; i++) {
+        res.push([]);
+        for (let i = 0; i < l ++i) {
             const node = arr.shift();
-            res[res.length -1].push(node.val);
-            if(node.left != undefined && node.left !=null) {
+            res[res.length - 1].push(node.val);
+            if (node.left) {
                 arr.push(node.left);
             }
-            if(node.right != undefined && node.right !=null) {
+            if (node.right) {
                 arr.push(node.right);
             }
         }
     }
+
     return res;
-}
+};
 ```
 
 ### 测试
 
 ```js
-var a = new TreeNode('A')
-a.left = new TreeNode('B')
-a.right = new TreeNode('C')
-a.left.left = new TreeNode('D')
-a.left.right = new TreeNode('E')
-a.right.left = new TreeNode('F')
+var a = new TreeNode('A', new TreeNode('B', new TreeNode('D'), new TreeNode('E')), new TreeNode('C', new TreeNode('F')))
 
 console.log(a)
 console.log(inorderTraversal(a))
