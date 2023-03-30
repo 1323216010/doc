@@ -148,19 +148,19 @@ function levelOrder(root) {
         return res;
     }
 
-    const arr = [];
-    arr.push(root);
-    while (arr.length != 0) {
-        let l = arr.length;
+    const q = [];
+    q.push(root);
+    while (q.length != 0) {
+        let l = q.length;
         res.push([]);
-        for (let i = 0; i < l ++i) {
-            const node = arr.shift();
+        for (let i = 0; i < l; ++i) {
+            const node = q.shift();
             res[res.length - 1].push(node.val);
             if(node.left != undefined && node.left !=null) {
-                arr.push(node.left)
+                q.push(node.left)
             }
             if(node.right != undefined && node.right !=null) {
-                arr.push(node.right)
+                q.push(node.right)
             }
         }
     }
