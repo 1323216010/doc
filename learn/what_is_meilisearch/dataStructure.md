@@ -156,11 +156,11 @@ function levelOrder(root) {
         for (let i = 0; i < l ++i) {
             const node = arr.shift();
             res[res.length - 1].push(node.val);
-            if (node.left) {
-                arr.push(node.left);
+            if(node.left != undefined && node.left !=null) {
+                arr.push(node.left)
             }
-            if (node.right) {
-                arr.push(node.right);
+            if(node.right != undefined && node.right !=null) {
+                arr.push(node.right)
             }
         }
     }
