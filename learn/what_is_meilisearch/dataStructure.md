@@ -248,21 +248,20 @@ function isValid(s) {
     if (s.length % 2 === 1) {
         return false;
     }
-    const pairs = new Map([
-        [')', '('],
-        [']', '['],
-        ['}', '{']
-    ]);
+    const map = new Map();
+    map.set(')', '(')
+    map.set(']', '[')
+    map.set('}', '{')
     const stk = [];
-    for (let ch of s){
-        if (pairs.has(ch)) {
-            if (stk.length == 0 || stk[stk.length - 1] !== pairs.get(ch)) {
+    for (let i = 0; i < s.length; ++i){
+        if (map.has(s[i])) {
+            if (stk.length == 0 || stk[stk.length - 1] !== map.get(s[i])) {
                 return false;
             }
             stk.pop();
         } 
         else {
-            stk.push(ch);
+            stk.push(s[i]);
         }
     };
     return !stk.length;
