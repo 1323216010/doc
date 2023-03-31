@@ -5,7 +5,7 @@ module.exports = (options, context) => ({
       .breaks(true) // Convert '\n' in paragraphs into <br>
   },
   extendMarkdown(md) {
-    md.set({ html: true });
-    md.use(require("markdown-it-katex"));
+    md.set({ html: true })
+    .use(require('markdown-it-katex'))
   },
 })
