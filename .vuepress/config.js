@@ -1,5 +1,13 @@
 const ogprefix = 'og: http://ogp.me/ns#'
 module.exports = {
+  extendMarkdown(md) {
+    md.set({ html: true });
+    md.use(require("markdown-it-katex"));
+  },
+  head: [
+    ['link', { rel: 'stylesheet', href: 'https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.7.1/katex.min.css' }],
+    ['link', { rel: "stylesheet", href: "https://cdnjs.cloudflare.com/ajax/libs/github-markdown-css/2.10.0/github-markdown.min.css" }]
+  ],
   title: '幻想乡 v1.0',
   description: 'Open source Instant Search Engine',
   theme: 'default-prefers-color-scheme',
