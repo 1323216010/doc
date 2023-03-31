@@ -18,8 +18,6 @@ sidebarDepth: 2
 
 <img src="https://picture.yan-test.asia/数据的逻辑结构分类图.jpg" alt="数据的逻辑结构分类" style="zoom: 50%;" />
 
-
-
 ### 存储结构
 
 定义：数据结构在计算机中的表示(又称映像)，也称物理结构。
