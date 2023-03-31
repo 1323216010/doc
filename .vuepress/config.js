@@ -60,7 +60,11 @@ module.exports = {
               path: '/learn/what_is_meilisearch/protocol',
             },
             {
-              title: '数据结构',
+              title: '数据结构（408）',
+              path: '/learn/what_is_meilisearch/ad',
+            },
+            {
+              title: '算法与数据结构',
               path: '/learn/what_is_meilisearch/dataStructure',
             },
             {
