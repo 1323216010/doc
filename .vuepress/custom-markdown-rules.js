@@ -6,6 +6,6 @@ module.exports = (options, context) => ({
   },
   extendMarkdown(md) {
     md.set({ html: true })
-    .use(require('markdown-it-katex'))
+    md.use(require('markdown-it-katex'))
   },
 })
