@@ -91,6 +91,16 @@ module.exports = {
                 },
               ],
             },
+            {
+              title: 'java框架',
+              path: '/learn/what_is_meilisearch/java-frame.html',
+              children: [
+                {
+                  title: 'go',
+                  path: '/learn/what_is_meilisearch/java-frame',
+                },
+              ],
+            },
           ],
         },
       ],
