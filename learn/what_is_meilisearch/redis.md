@@ -81,7 +81,7 @@ SortedSet具备下列特性：
 
 ### 缓存
 
-**缓存(**Cache),就是数据交换的**缓冲区**，俗称的缓存就是**缓冲区内的数据**，一般从数据库中获取存储于本地代码。
+**缓存(**Cache)，就是数据交换的**缓冲区**，俗称的缓存就是**缓冲区内的数据**，一般从数据库中获取存储于本地代码。
 
 ```java
 例1:Static final ConcurrentHashMap<K,V> map = new ConcurrentHashMap<>(); 本地用于高并发
