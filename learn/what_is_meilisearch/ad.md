@@ -78,7 +78,6 @@ sidebarDepth: 2
 
 * 随机访问，即通过首地址和元素序号可在时间0(1)内找到指定的元素。
 
-
 ### 链表
 
 定义：线性表的链式存储称为链表。
@@ -141,8 +140,6 @@ sidebarDepth: 2
 树的定义是递归的，即在树的定义中又用到了其自身。
 
 <img src="https://picture.yan-test.asia/%E6%A0%91.png" alt="树" style="zoom: 25%;" />
-
-
 
 ### 结点的度
 
