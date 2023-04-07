@@ -64,30 +64,6 @@ module.exports = {
               path: '/learn/what_is_meilisearch/ad',
             },
             {
-              title: '编程语言',
-              path: '/learn/what_is_meilisearch/go.html',
-              children: [
-                {
-                  title: 'go',
-                  path: '/learn/what_is_meilisearch/go',
-                },
-              ],
-            },
-            {
-              title: '程序代码',
-              path: '/learn/what_is_meilisearch/go-hw.html',
-              children: [
-                {
-                  title: 'js',
-                  path: '/learn/what_is_meilisearch/js-hw',
-                },
-                {
-                  title: 'go',
-                  path: '/learn/what_is_meilisearch/go-hw',
-                },
-              ],
-            },
-            {
               title: 'java框架',
               path: '/learn/what_is_meilisearch/java-frame',
             },
