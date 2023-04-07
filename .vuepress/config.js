@@ -64,10 +64,6 @@ module.exports = {
               path: '/learn/what_is_meilisearch/ad',
             },
             {
-              title: '算法与数据结构',
-              path: '/learn/what_is_meilisearch/dataStructure',
-            },
-            {
               title: '编程语言',
               path: '/learn/what_is_meilisearch/go.html',
               children: [
