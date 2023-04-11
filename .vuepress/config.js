@@ -6,7 +6,7 @@ module.exports = {
   themeConfig: {
     docsRepo: '幻想乡',
     docsBranch: 'main',
-    editLinks: true,
+    editLinks: false,
     logo: '/logo.png',
     sidebarDepth: 1,
     smoothScroll: true,
