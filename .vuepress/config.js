@@ -12,7 +12,7 @@ module.exports = {
     smoothScroll: true,
 
     nav: [
-      { text: '学习', link: '/learn/what_is_meilisearch/code' },
+      { text: '学习', link: '/learn/what_is_meilisearch/rabbitmq' },
       { text: '导航', link: '/reference/api/guide' },
       { text: '常用', link: '/faq' },
       {
